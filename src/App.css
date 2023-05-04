@@ -18,3 +18,42 @@
   width: 75px;
   margin-right: 10px;
 }
+
+
+/** MEME SECTION/FORM **/
+
+main {
+  padding: 10px;
+  outline: 1px solid red;
+}
+
+.form {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto;
+  outline: 1px solid red;
+}
+
+.top-text-input, .bottom-text-input {
+  width: 48%;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.top-text-input {
+  margin-right: auto;
+}
+
+.form-btn {
+  width: 100%;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 20px;
+}
