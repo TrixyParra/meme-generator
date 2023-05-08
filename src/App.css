@@ -20,18 +20,27 @@
 }
 
 
-/** MEME SECTION/FORM **/
+/** MEME SECTION - FORM, MEME **/
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 10px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   outline: 1px solid red;
+  /* max-width: 900px; */
 }
+
+/* Form */
 
 .form {
   max-width: 900px;
   display: flex;
   flex-wrap: wrap;
-  margin: 60px auto;
+  margin: auto;
+  margin-bottom: 60px;
   outline: 1px solid red;
 }
 
@@ -56,4 +65,50 @@ main {
   padding: 15px;
   font-size: 18px;
   margin-top: 20px;
+  cursor: pointer;
 }
+
+/* Meme */
+
+.meme {
+  position: relative;
+  outline: 1px solid red;
+}
+
+.meme-image {
+  max-width: 100%;
+  outline: 1px solid red;
+}
+
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+} 
