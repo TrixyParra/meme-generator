@@ -29,7 +29,6 @@ main {
   padding: 10px;
   margin-top: 60px;
   margin-bottom: 60px;
-  outline: 1px solid red;
   /* max-width: 900px; */
 }
 
@@ -41,7 +40,6 @@ main {
   flex-wrap: wrap;
   margin: auto;
   margin-bottom: 60px;
-  outline: 1px solid red;
 }
 
 .top-text-input, .bottom-text-input {
@@ -72,12 +70,10 @@ main {
 
 .meme {
   position: relative;
-  outline: 1px solid red;
 }
 
 .meme-image {
   max-width: 100%;
-  outline: 1px solid red;
 }
 
 .meme-text {
@@ -112,3 +108,13 @@ main {
 .top {
   top: 0;
 } 
+
+
+/** FOOTER **/
+
+footer {
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
